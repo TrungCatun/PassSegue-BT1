@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		87713C7D20D4ADF4003DA03C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87713C7C20D4ADF4003DA03C /* AppDelegate.swift */; };
-		87713C7F20D4ADF4003DA03C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87713C7E20D4ADF4003DA03C /* ViewController.swift */; };
+		87713C7F20D4ADF4003DA03C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87713C7E20D4ADF4003DA03C /* MasterViewController.swift */; };
 		87713C8220D4ADF4003DA03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87713C8020D4ADF4003DA03C /* Main.storyboard */; };
 		87713C8420D4ADF4003DA03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87713C8320D4ADF4003DA03C /* Assets.xcassets */; };
 		87713C8720D4ADF4003DA03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87713C8520D4ADF4003DA03C /* LaunchScreen.storyboard */; };
+		87713C9120D4B328003DA03C /* DetianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87713C9020D4B328003DA03C /* DetianViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87713C7920D4ADF4003DA03C /* PassSegue-BT1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PassSegue-BT1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87713C7C20D4ADF4003DA03C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87713C7E20D4ADF4003DA03C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87713C7E20D4ADF4003DA03C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		87713C8120D4ADF4003DA03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87713C8320D4ADF4003DA03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87713C8620D4ADF4003DA03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87713C8820D4ADF4003DA03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87713C9020D4B328003DA03C /* DetianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetianViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				87713C7C20D4ADF4003DA03C /* AppDelegate.swift */,
-				87713C7E20D4ADF4003DA03C /* ViewController.swift */,
+				87713C7E20D4ADF4003DA03C /* MasterViewController.swift */,
+				87713C9020D4B328003DA03C /* DetianViewController.swift */,
 				87713C8020D4ADF4003DA03C /* Main.storyboard */,
 				87713C8320D4ADF4003DA03C /* Assets.xcassets */,
 				87713C8520D4ADF4003DA03C /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87713C7F20D4ADF4003DA03C /* ViewController.swift in Sources */,
+				87713C7F20D4ADF4003DA03C /* MasterViewController.swift in Sources */,
+				87713C9120D4B328003DA03C /* DetianViewController.swift in Sources */,
 				87713C7D20D4ADF4003DA03C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
